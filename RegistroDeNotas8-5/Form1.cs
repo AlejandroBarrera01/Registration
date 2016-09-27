@@ -310,28 +310,28 @@ namespace RegistroDeNotas8_5
 
                 if (num1 > 35)
                 {
-                    MessageBox.Show("El primera parcial debe se <= 35");
+                    MessageBox.Show("Number needs to be <= 35");
                     num1 = 0;
                     DatagridRegisterNotes.Rows[x].Cells[3].Value = num1;
                     DatagridRegisterNotes.Rows[x].Cells[7].Value = num1 + num2 + num3;
                 }
                 if (num2 > 35)
                 {
-                    MessageBox.Show("El Segundo parcial debe se <= 35");
+                    MessageBox.Show("Second Number needs to be <= 35");
                     num2 = 0;
                     DatagridRegisterNotes.Rows[x].Cells[4].Value = num2;
                     DatagridRegisterNotes.Rows[x].Cells[7].Value = num1 + num2 + num3;
                 }
                 if (num3 > 35)
                 {
-                    MessageBox.Show("El Tercer parcial debe se <= 35");
+                    MessageBox.Show("Third Number needs to be <= 35");
                     num3 = 0;
                     DatagridRegisterNotes.Rows[x].Cells[5].Value = num3;
                     DatagridRegisterNotes.Rows[x].Cells[7].Value = num1 + num2 + num3;
                 }
                 if (((num5 > 100) || (num5 < 0)))
                 {
-                    MessageBox.Show("El Numero Tiene que ser Mayor que 0 y menor que 100 ");
+                    MessageBox.Show("Number needs to be greater than 0 but less than 100 ");
                     num5 = 0;
                     DatagridRegisterNotes.Rows[x].Cells[10].Value = num5;
                 }
