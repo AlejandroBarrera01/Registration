@@ -304,7 +304,7 @@ namespace RegistroDeNotas8_5
                 }
                 else
                 {
-                    num5 = int.Parse(DatagridRegisterNotes.Rows[x].Cells[1\0].Value.ToString());
+                    num5 = int.Parse(DatagridRegisterNotes.Rows[x].Cells[10].Value.ToString());
                 }
 
 
